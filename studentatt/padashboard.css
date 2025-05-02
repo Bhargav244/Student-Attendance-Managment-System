@@ -1,0 +1,100 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background:'black.jpg';
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dashboard container */
+.dashboard1 {
+    text-align: center;
+    padding: 50px;
+   
+    border-radius: 8px;
+}
+
+/* Heading styles */
+h1 {
+    color: #fdf5f5;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Space between the items */
+}
+
+nav ul li {
+    margin: 0; /* Remove the margin between list items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+.dashboard2 {
+    text-align: center;
+    padding: 40px;
+   
+    border-radius: 8px;
+    margin-top: 20px; /* Adds space between dashboard1 and dashboard2 */
+}
+
+/* Heading styles for dashboard2 */
+.dashboard2 h1 {
+    color: #f8f6f6;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Navigation menu styles for dashboard2 */
+.dashboard2 nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Space between the items */
+}
+
+.dashboard2 nav ul li {
+    margin: 0;
+}
+
+.dashboard2 nav ul li a {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+/* Hover effect for links in dashboard2 */
+.dashboard2 nav ul li a:hover {
+    background-color: #45a049;
+}
+

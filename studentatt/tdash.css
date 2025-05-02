@@ -1,0 +1,50 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/teacherlogin.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dashboard container */
+.dashboard {
+    text-align: center;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+/* Heading styles */
+h1 {
+    color: #f1f1f1;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Space between the items */
+}
+
+nav ul li {
+    margin: 0; /* Remove the margin between list items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    background-color: #45a049;
+}
